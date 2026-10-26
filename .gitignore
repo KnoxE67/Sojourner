@@ -16,3 +16,25 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+# KiCad backup and temporary files
+*-backups/
+*.lck
+*~
+_autosave-*
+
+# KiCad local workspace settings
+*.kicad_prl
+fp-info-cache
+
+# macOS files
+.DS_Store
+
+# Python virtual environments
+.venv/
+venv/
+easyeda2kicad-env/
+
+# Python cache
+__pycache__/
+*.py[cod]
